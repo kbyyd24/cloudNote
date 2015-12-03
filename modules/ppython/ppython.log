@@ -1,0 +1,9 @@
+nohup: ignoring input
+-------------------------------------------
+- PPython Service
+- Time: 2015-11-17 12:47:57
+-------------------------------------------
+Traceback (most recent call last):
+  File "php_python.py", line 60, in <module>
+    self.recSocket.setsockopt(socket.SOL_SOCKET,socket.SO_REUSEADDR,1) 
+NameError: name 'self' is not defined
